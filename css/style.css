@@ -1,0 +1,220 @@
+
+
+.navbar-default .navbar-nav > li > a {
+    color:black;
+    margin-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+
+}
+
+.navbar-nav {
+    min-height: 70px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+.dropdown-menu .divider{
+    background-color: rgb(165, 87, 87);
+}
+
+.dropdown-menu  {
+    border-top:3px solid red;
+    min-width: 200px;
+    padding: 2px;   
+}
+
+ 
+ .navbar-right .dropdown-menu {
+    right: auto; 
+    left: 0;   
+} 
+
+.dropdown-menu > li > a{
+    padding:  6px 20px;
+    color: black;
+    -webkit-transition: padding .5s ease-in-out;
+}
+.dropdown-menu > li > a:hover{
+    color:white;
+    background-color:red;
+    padding-left:28px ;  
+   
+}
+.navbar-default .navbar-brand {
+    color: #777;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 70px;
+    font-size: 26px;
+    line-height: 26px; /*center par height */
+}
+/* nom du web set premier nom  */
+.navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: black;
+}
+.navbar-default .navbar-brand span{
+    color: red;
+
+}
+/*navbar toogle */
+.navbar-toggle{
+  margin-top: 18px;
+  
+}
+/* =========stayling carousoul===========  */
+/* les images du carousol  */
+.img-responsive, .thumbnail > img,
+ .thumbnail a > img, .carousel-inner > 
+ .item > img, .carousel-inner > .item > a > img {
+    height: 400px;
+    margin: auto;
+    width: 100%;
+
+}
+
+.carousel-caption{
+    display:inline-block;
+    bottom:70px;
+    background: rgba(4, 3, 3, 0.6);
+     padding-left:20px ;   
+     padding-right:20px ;  
+     border-radius: 12px;
+     margin: 40px auto;
+}
+/*les point de mouvement */
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border:1px solid #eee ;
+}
+/*le point active des mouvement */
+ #myslide .carousel-indicators .active {
+    width: 17px;
+    height: 17px;
+    background-color:red;
+}
+
+/* ==========start section skils    ==========*/
+.skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 16px;
+    background: rgba(4, 3, 3, 0.2);
+  }
+  .skills h2{
+      margin-bottom: 20px;
+  }
+
+  .skills h3{
+      margin-top: 0px;
+      font-weight: bold;
+  }
+
+  .skills span{
+    font-weight: normal;
+}
+.skills .info {
+    padding-left:20px;
+    padding-top:13px ;
+}
+.skills .info label {
+    margin: 12px;
+    font-size: 18px;
+}
+.skills .info a {
+    text-decoration:none ;
+}
+
+  .skills img {
+      padding-top:30px ;
+      margin: 20px;
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+  }
+
+/* =====================start style competance ==========  */
+.competances{
+    background-color: #EEE;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.competances h1{
+    margin-bottom: 30px;
+}
+.competances .comp-boxx{
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 15px;
+}
+.competances .comp-box h2{
+    margin: 5px 0 15px ;
+}
+
+
+.competances .comp-box ul{
+    font-size: 18px;
+    line-height: 250%;
+ }
+ /* =====================start style price table==========  */
+ .video{
+     margin-top: 20px;
+     margin-bottom: 20px;
+    background-color: #EEE;
+    padding-bottom: 30px;
+    padding-top: 30px;
+ }
+ .video .card {
+     padding: 6px;
+ }
+/* ======================contact ================================== */
+.contact-us{
+
+    min-height: 300px;
+    margin-top:30px ;
+}
+.contact-us .contact{
+    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.contact-us :hover{
+    color: white;
+}
+
+.contact-us p{
+    margin-bottom: 40px;
+}
+.contact-us textarea{
+    height: 108px;
+}
+.contact-us .adress{
+    margin-left: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
